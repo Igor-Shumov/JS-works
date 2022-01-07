@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.description {
+  color: #00a0c1;
+  padding: 10px;
+  margin: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputNumber {
+  margin: 10px;
+  width: 300px;
+
+  color: #00a0c1;
+  border: 1px solid #00a0c1;
+  border-radius: 30px;
+  font-weight: bold;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.btn {
+  border: 1px solid #00a0c1;
+  border-radius: 30px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
+  color: #00a0c1;
+  background: none;
+  cursor: pointer;
+  width: 300px;
+  box-sizing: border-box;
+}
+
+.selecter {
+  margin: 10px;
+  width: 300px;
+  text-align: center;
+  border: 1px solid #00a0c1;
+  border-radius: 30px;
+  font-weight: bold;
+  color: #00a0c1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.post {
+  border: 1px solid #00a0c1;
+  border-radius: 30px;
+  margin: 15px 0;
+  padding: 10px 10px;
+  margin: 15px;
+  color: #00a0c1;
+  text-align: center;
+  width: 300px;
+  background-color: #FFF;
+}
